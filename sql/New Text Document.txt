@@ -1,0 +1,12 @@
+select * from Users;
+
+insert into Users values('9745506531','Yadhu','123');
+
+select * from PhoneRecharges;
+delete from phoneRecharges;
+
+insert into phoneRecharges values(5,'Unlimited',10,'abc');
+
+insert into phoneRecharges (PRid,validity,Amt,Descrip) values(2,'Unlimited',20,'Talktime:');
+
+insert into phoneRecharges values(1,'Unlimited',10);
